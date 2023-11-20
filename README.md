@@ -10,11 +10,23 @@ In terminal 2, run 'python main.py -M3 -I1 00000'. Terminal 2 is operated by use
 In terminal 3, run 'python main.py -M3 -I2'. Terminal 3 is an oblivious matchmaker needed for secure computation. It receives no data from both parties and transmits no data.
 
 STD panel reports are converted to bit strings. This is referred to as distilled STD panel data. Indexes are specific for each disease, 0 denotes negative result (no infection), and 1 denotes positive result (infected).
+
+
 Index 0 is chlamydia
+
+
 Index 1 is HIV
+
+
 Index 2 is gonorrhea
+
+
 Index 3 is syphilis
+
+
 Index 4 is hepatitis B
+
+
 Index 5 is hepatitis C
 
 Current strategy is to simply perform bitwise XOR on both bit strings. If both partners have a disease (1 in same index) or both don't have a disease (0 in same index), then XOR returns 0, else XOR returns 1 if one partner has a disease and the other doesn't. All XORs must return 0 to return an output of 0 denoting safe sex is possible, else 1 is returned denoting unsafe sex.
