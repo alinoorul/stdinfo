@@ -1,6 +1,7 @@
 # stdinfo v0.1
 
 Disclaimer: This is in active beta and has not yet been verified to be cryptographically secure. Use at your own risk.
+
 This program serves as the foundation and API core for ONITO's 'STDinfo' that uses secure multiparty computation to allow users to know if they can have safe sex with each other without sharing their STD (sexually transmitted disease) medical reports with each other or a 3rd party.
 
 Dependencies:
