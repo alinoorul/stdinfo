@@ -37,6 +37,9 @@ Current strategy is to simply perform bitwise XOR on both bit strings. If both p
 Next steps:
 
 
+Perform sum(panel) modulo 2 with mpc functions instead of in separate 'elif' condition. I suspect it may make the secure computation useless if a host computer can access panel output.
+
+
 Performing this secure multiparty computation on Android and iOS apps natively without Internet access
 
 
