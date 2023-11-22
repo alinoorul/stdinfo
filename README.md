@@ -8,7 +8,7 @@ Dependencies:
 MPyC
 
 To run main.py, open 3 command terminals in the directory where main.py is stored. 
-In terminal 1, run 'python main.py -M3 -I0 00010'. Terminal 1 is operated by user 1. '00010' is a distilled STD panel report where 0 denotes negative test result, 1 denotes positive test result, and the index in this bit string denotes a specific sexually transmitted disease on the panel. 
+In terminal 1, run 'python main.py -M3 -I0 00010'. Terminal 1 is operated by user 1. '00010' is a distilled STD panel. In this bit string, each 0 denotes a negative test result, and each 1 denotes a positive test result. The index of each bit in this distilled STD bit string is specific to a specific sexually transmitted disease tested on the panel (see below for more information).
 In terminal 2, run 'python main.py -M3 -I1 00000'. Terminal 2 is operated by user 2. '00000' is the distilled STD panel data (all STDs tested for were negative).
 In terminal 3, run 'python main.py -M3 -I2'. Terminal 3 is an oblivious matchmaker needed for secure computation. It receives no data from both parties and transmits no data.
 
