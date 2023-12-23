@@ -7,7 +7,7 @@ This program serves as the foundation and API core for ONITO's 'STDinfo' protoco
 Dependencies:
 MPyC
 
-To run main.py, open 3 command terminals in the directory where main.py is stored. 
+Open 3 command terminals in the directory where main.py is stored. 
 
 
 In terminal 1, run 'python main.py -M3 -I0 000100'
